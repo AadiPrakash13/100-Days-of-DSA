@@ -16,7 +16,7 @@ int main() {
 
     for (i = 0; i < n; i++) {
         for (j = i + 1; j < n; j++) {
-            if (nums[i] + nums[j] == target) {
+            if (nums[i] + nums[j] == target) {x
                 printf("%d %d", i, j);
                 return 0;
             }
